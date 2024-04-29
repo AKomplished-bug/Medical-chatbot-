@@ -14,7 +14,7 @@ chunks_txt=split_txt.split_documents(documents)
 print(chunks_txt)
 embedding = HuggingFaceEmbeddings(model_name="sentence-transformers/all-MiniLM-L6-v2")
 pinecone_api_key = os.getenv("pinecone_api_key")
-index_name= "med-chat"
+index_name= os.getenv("index_name")
 pinecone = PineconeVectorStore.from_documents(chunks_txt, embedding, index_name=index_name)
 print("vectors upserted")
 
