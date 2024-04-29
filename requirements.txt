@@ -1,0 +1,11 @@
+streamlit
+SpeechRecognition
+gTTS
+langchain
+langchain-google-genai
+langchain-community
+google-generativeai
+python-dotenv
+langchain-pinecone
+PyPDF2
+sentence-transformers
