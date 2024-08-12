@@ -83,6 +83,6 @@ Running the Application
 
 After ingesting the data, you can run the Streamlit interface:
 
-    ```bash
-    streamlit run main.py
+ ```bash
+ streamlit run main.py
 
