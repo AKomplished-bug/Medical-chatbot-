@@ -63,5 +63,26 @@ Ensure you have the following installed:
    ```bash
    cp sample.env .env
 
+    Replace the placeholders with your actual keys.
 
+Usage
+Ingesting Medical Data
+
+Before running the application, you need to ingest the medical documents into the Pinecone Vector Store.
+
+1. Place your medical PDFs in the medical_data/ directory.
+
+2. Run the ingest.py script:
+
+   ```bash
+   python ingest.py
+
+This will process the PDFs, split them into chunks, generate embeddings, and upload them to Pinecone.
+
+Running the Application
+
+After ingesting the data, you can run the Streamlit interface:
+
+    ```bash
+    streamlit run main.py
 
