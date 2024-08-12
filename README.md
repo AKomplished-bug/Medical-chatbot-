@@ -10,12 +10,6 @@ A Python-based Medical Query Assistant that leverages LangChain, Pinecone, Strea
 4. [Usage](#usage)
    - [Ingesting Medical Data](#ingesting-medical-data)
    - [Running the Application](#running-the-application)
-5. [Project Structure](#project-structure)
-6. [Environment Variables](#environment-variables)
-7. [Dependencies](#dependencies)
-8. [Contributing](#contributing)
-9. [License](#license)
-10. [Acknowledgments](#acknowledgments)
 
 ## Introduction
 
