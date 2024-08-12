@@ -43,9 +43,6 @@ Ensure you have the following installed:
 
 1. Clone the repository:
 
-   '''bash
-   
+   ```bash
    git clone https://github.com/yourusername/medical-query-assistant.git
    cd medical-query-assistant
-
-
