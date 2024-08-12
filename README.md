@@ -38,3 +38,33 @@ Ensure you have the following installed:
 
 - Python 3.7+
 - Pip
+
+### Installation
+
+1. Clone the repository:
+
+   bash
+   '''
+   git clone https://github.com/yourusername/medical-query-assistant.git
+   cd medical-query-assistant
+'''
+    Create a virtual environment and activate it:
+
+    bash
+'''
+python3 -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+'''
+Install the required Python packages:
+
+bash
+'''
+pip install -r requirements.txt
+'''
+Set up your environment variables by creating a .env file:
+
+bash
+'''
+cp sample.env .env
+'''
+Replace the placeholders with your actual keys.
