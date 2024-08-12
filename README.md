@@ -50,20 +50,20 @@ Ensure you have the following installed:
 '''
     Create a virtual environment and activate it:
 
-'''bash
+'''shell
 
 python3 -m venv venv
 source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 '''
 Install the required Python packages:
 
-'''bash
+'''shell
 
 pip install -r requirements.txt
 '''
 Set up your environment variables by creating a .env file:
 
-'''bash
+'''shell
 
 cp sample.env .env
 '''
