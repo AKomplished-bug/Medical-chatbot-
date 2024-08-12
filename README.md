@@ -44,5 +44,24 @@ Ensure you have the following installed:
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/medical-query-assistant.git
-   cd medical-query-assistant
+   git clone https://github.com/AKomplished-bug/Medical-chatbot-.git
+   cd Medical-chatbot-
+
+2. Create a virtual environment and activate it:
+   
+   '''bash
+   python3 -m venv venv
+   source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+
+3. Install the required Python packages:
+
+   '''bash
+   pip install -r requirements.txt
+
+4. Set up your environment variables by creating a .env file:
+
+   '''bash
+   cp sample.env .env
+
+
+
